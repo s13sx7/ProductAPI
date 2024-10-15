@@ -15,16 +15,24 @@ API для работы с продуктами
 
 
 **Endpoint'ы Категорий**
+
 GET /categories/all - возвращает все категории с количеством продуктов в них.
 
 GET /categories/{id} - возвращает категорию соответствующую параметру id.
 
 POST /categories/add - Добавление категории.
 
+
 **Endpoint'ы Продуктов**
+
 GET /products/all - возвращает все продукты с информацией по ним.
+
 GET /products/{id} - возвращает продукт соответствующий параметру id.
+
 POST /products/add - Добавление продукта.
+
 PATCH /products/update - Обновление информации по продукту.
+
 DELETE /products/delete - Удаление продукта по id.
+
 GET /products/filter_search - Поиск продуктам по фильтрам.
