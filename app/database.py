@@ -1,8 +1,7 @@
 from typing import Annotated
-from sqlalchemy import NullPool
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase, mapped_column
-from config import settings, get_url
+from config import get_url
 
 
 DataBaseURL = get_url()
